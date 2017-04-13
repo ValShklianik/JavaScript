@@ -8,7 +8,7 @@ var sum = 0;
 var arr = [];
 var avg = 0;
 
-for (var i = 0; i <= n; i++) {
+for (var i = 0; i < n; i++) {
 	arr[i] = Math.random()*((s + s * p) - (s - s * p) + 1) + (s - s * p);
 	console.log(arr[i]);
 }
