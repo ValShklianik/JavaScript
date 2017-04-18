@@ -1,0 +1,36 @@
+li {
+	border: 2px solid grey;
+	list-style-type: none;
+	-webkit-border-radius: 6px;
+
+
+
+}
+.menu {
+position: absolute;
+width: 100px;
+padding: 2px;
+margin: 0;
+opacity: 0;
+}
+
+.show-menu {
+opacity: 1;
+}
+
+.menu-item {
+position: relative;
+margin: 0;
+padding: 0;
+
+}
+
+.menu-item:hover {
+background-color: grey;
+
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
