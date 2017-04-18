@@ -1,15 +1,15 @@
-var n = 1; 
-function fnct(n)
-{
- 	return n*n - 2*n;
- 	console.log(n);
+var interv = 0, i = 3;
+
+
+function scroll(interv, i){
+  return Math.pow(interv / i, 3);
 }
-var I = setInterval(function () 
-{
-	scrollBy(0, fnct(n));
-		if(scrollY + innerHeight >= 100000 - 30)
-			{
-				clearInterval(I);
-			}
-	n += 0.01;
-}, 	n);
+
+
+var time = setInterval(function(){
+ 	window.scrollBy(0,scroll(interv,i));
+ 	 	interv += 0.1;
+ 	if ((window.innerHeight+window.scrollY) >=10000){
+ 		clearInterval(time); 
+ 	}
+},50)
