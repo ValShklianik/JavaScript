@@ -1,0 +1,42 @@
+nav ul ul {
+  display: none;
+  position: absolute;
+  font-size: 20px;
+  position: absolute;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  font-size: 20px;
+  border: 2px solid grey;
+  padding: 0px 0px 0px 2px;
+
+
+}
+
+nav ul li {
+  float: left;
+  font-size: 20px;
+  position: relative;
+
+}
+
+nav ul li:hover {
+  background-color: #6988EF;
+}
+
+nav ul ul li{
+  float: none;
+  position: relative;
+}
+
+
+nav ul ul ul {
+  left:60%;
+}
