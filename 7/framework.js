@@ -21,12 +21,22 @@ var framework = {
 	},
 
 	event: function(t,e,f){
-		t.addEventListener(e,f);
+
+		if(typeof t.attachEvent == "function")
+		
+			t.attachEvent('on' + e, f);
+		
+		else
+			t.addEventListener(e, f);
 	},
 
 	unevent: function(t,e,f){
-		t.removeEventListener(e,f);
-	},
+		
+		if(typeof t.attachEvent == "function")
+			t.detachEvent('on' + e, f);
+		
+		else
+			t.removeEventListener(e,f);		},
 
 	dispatch: function(t,e){
 		var event = new Event(e);
