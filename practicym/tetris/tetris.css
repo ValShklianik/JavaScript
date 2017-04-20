@@ -1,0 +1,39 @@
+table {
+	border: 5px solid black;
+	margin:0 auto;
+    width:800px;
+    height: 800px; 
+}
+
+.container{
+	width:800px;
+    height: 800px;
+    overflow: hidden; 	
+}
+
+.rem {
+	-webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+#score{
+	float: right;
+	font-size:  30px;
+	  display: inline-table;
+	  	right: 0px;
+	  margin-top: 100px;
+	  
+
+
+	
+}
+#scorerem{
+	float: right;
+	right: 0px;
+	font-size:  30px;
+	 position: absolute;
+
+	
+}
