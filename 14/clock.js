@@ -45,6 +45,7 @@ var minute = date.getMinutes();
 var second = date.getSeconds();
 var time = hour*3600 + minute*60 + second;
 	var koordHour =time/86400;
+	
 	ctx.save();
 	ctx.rotate(4*Math.PI*koordHour)
 	ctx.moveTo(0, 0)
@@ -61,13 +62,10 @@ var time = hour*3600 + minute*60 + second;
 	ctx.rotate(2*Math.PI*koordSec);
 	ctx.moveTo(0,0)
 	ctx.lineTo(0,-120);
-	ctx.moveTo(0,0)
+	ctx.moveTo(0,0);
 
 	ctx.rotate(-2*Math.PI*koordSec)
 	ctx.stroke();
-
-
-
   }	
 
 window.onload = function() {
