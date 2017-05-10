@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+<input type="button" id="play" value="►" >
+<input type="button" id="stop" value="▄">
+<input type="button" id="faster" value=">>">
+<input type="button" id="slower" value="<<">
+<input type="button" id="volume" value="♫">
+<input type="range" id="range" value="90" oninput="sizePic()">
+		<div id="audio" style="width: 200px; height: 10px; border: 2px solid black; display: inline-block;">
+			<div id="load" style="background-color: grey;  height: 10px; width: 2px" ></div>
+		</div>
+		
+<div id="time" value="" style="display: inline-block;"></div>
+<audio src="1.mp3" id="1">
+</audio>
+
+<script type="text/javascript" src="audio.js"></script>
+</body>
+</html>
