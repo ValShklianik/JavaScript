@@ -1,0 +1,31 @@
+[{
+        "id": 30,
+        "name": "chicken",
+        "price": 23
+    },
+    {
+        "id": 31,
+        "name": "pork",
+        "price": 26
+    },
+    {
+        "id": 32,
+        "name": "turkey",
+        "price": 1
+    },
+    {
+        "id": 33,
+        "name": "Beef",
+        "price": 19
+    },
+    {
+        "id": 34,
+        "name": "mix",
+        "price": 2
+    },
+    {
+        "id": 35,
+        "name": "Forcemeat",
+        "price": 1
+    }
+]

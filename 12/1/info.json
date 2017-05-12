@@ -1,0 +1,14 @@
+[
+	{
+		"name" : "fruits",
+		"adress" : "goods/fruits.json"
+	},
+  {
+		"name" : "meat",
+		"adress" : "goods/meat.json"
+	},
+  {
+		"name" : "dairy",
+		"adress" : "goods/dairy.json"
+	}
+]
