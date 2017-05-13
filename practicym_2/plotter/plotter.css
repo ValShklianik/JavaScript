@@ -1,0 +1,157 @@
+canvas{
+	background-color: rgba(0,100,255,0.2);
+}
+
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 	16px;
+	color: rgba(0,100,255);
+
+}
+
+span{
+		color: rgba(255,100,255);
+		font-weight: 800;
+
+}
+
+.enter{
+	width: 	28px;
+
+}
+
+#lineF{
+	width: 110px;
+	position: 	relative;	
+	margin-left:60%;
+	margin-top:-800px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px
+}
+
+#siF{
+	width: 110px;
+	position: 	relative;	
+	margin-left:70%;
+	margin-top:-140px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px
+}
+
+#cs{
+	width: 112px;
+	position: 	relative;	
+	margin-left:80%;
+	margin-top:-150px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px
+}
+
+
+#tgg{
+	width: 112px;
+	position: 	relative;	
+	margin-left:60%;
+	margin-top:20px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px
+}
+
+
+
+#ct{
+	width: 112px;
+	position: 	relative;	
+	margin-left:70%;
+	margin-top:-150px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px
+}
+
+#lg{
+	width: 112px;
+	position: 	relative;	
+	margin-left:80%;
+	margin-top:-150px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px
+}
+
+#shw{
+	width: 112px;
+	position: 	relative;	
+	margin-left:60%;
+	margin-top:20px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px
+}
+
+#eps{
+	width: 112px;
+	position: 	relative;	
+	margin-left:70%;
+	margin-top:-150px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px
+}
+
+#gp{
+	width: 112px;
+	
+	position: 	relative;	
+	margin-left:80%;
+	margin-top:-150px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px
+}
+
+
+
+#sqr{
+	width: 150px;
+	height: 75px;
+	position: 	relative;	
+	margin-left:90%;
+	margin-top:-150px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px;
+  font-size: 	30px;
+
+}
+
+
+#cub{
+	width: 150px;
+	height: 75px;
+	position: 	relative;	
+	margin-left:90%;
+	margin-top:-150px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px;
+ font-size: 	30px;
+}
+
+
+
+#f4{
+	width: 500px;
+	height: 130px;
+	position: 	relative;	
+	margin-left:60%;
+	margin-top:0px;
+	border: 2px solid grey;
+	padding: 3px;
+ border-radius: 10px 10px;
+}
+
