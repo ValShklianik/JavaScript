@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul li ul {
+  display: none;
+}
+ul li ul {
+  display: none;
+}
+.active ul{
+  display: block;
+}
+li{
+	list-style: none;
+}
+.mainmenu{
+	
+	width: 150px;
+}
+.mainmenu li{
+	margin: 5px;
+	background-color: #B0C4DE;
+	padding: 5px;
+}

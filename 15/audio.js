@@ -76,7 +76,7 @@ function audioSlider(){
 
 
 
-
+localStorage.getItem(audio.currentTime);
 
 /*
 var time=document.getElementById('time');

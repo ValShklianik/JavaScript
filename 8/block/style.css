@@ -1,0 +1,15 @@
+.block{
+	position: absolute;
+	top: 1000px;
+	height: 300px;
+	width: 300px;
+	background-color: #B0C4DE;
+}
+body{
+	height: 7000px;
+}
+
+.fixed{
+	position: fixed;
+	top: 0;
+}

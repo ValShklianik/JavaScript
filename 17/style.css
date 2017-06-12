@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+canvas {
+    border : 2px solid rgba(2,90,255,0.53);;
+}
+
+#main {
+    position: absolute;
+    top: 3%;
+    left: 35%;
+}
+
+div {
+    display: inline-block;
+    padding: 10px;
+}
+
